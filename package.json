@@ -1,9 +1,0 @@
-{
-  "name": "www.abdulbasit.ca",
-  "version": "1.0.0",
-  "description": "Personal Website",
-  "main": "index.js",
-  "repository": "https://github.com/abdulbasit1149/personal-website.git",
-  "author": "Abdul Basit",
-  "license": "MIT"
-}
