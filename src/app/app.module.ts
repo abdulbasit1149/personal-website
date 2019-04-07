@@ -7,7 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
-import { DropdownDirective } from './shared/dropdown.directive'
+import { DropdownDirective } from './shared/dropdown.directive';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DropdownDirective } from './shared/dropdown.directive'
     HeaderComponent,
     HomeComponent,
     ResumeComponent,
-    DropdownDirective
+    DropdownDirective,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
