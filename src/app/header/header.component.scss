@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #9DC3C2;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white !important;
+    &:hover {
+        color: #4D7298 !important;
+    }
+}
+
+.nav.navbar-nav{
+    display: flex;
+    flex-direction: column;
+}

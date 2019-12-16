@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href http://abdulbasit1067.github.io/personal-website/ && ngh --dir dist/personal-website"
   },
   "private": true,
   "dependencies": {

@@ -1,0 +1,30 @@
+img {
+    width: 350px;
+    margin: 0px;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+}
+
+.menu-panel {
+   background-color:#9DC3C2;
+   display: flex;
+   flex-direction: column; 
+   justify-content: space-evenly;
+}
+
+.container { 
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.top {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    img {
+        height: 100%;
+        width: auto;
+    }
+}
